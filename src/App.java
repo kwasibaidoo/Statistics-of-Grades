@@ -139,7 +139,7 @@ public class App {
             for (int i = 0; i < N; i++) {
                 int score = -1;
                 while (score < 0 || score > 100) {
-                    System.out.printf("Enter student %s's score: ",i);
+                    System.out.printf("Enter student %s's score: ",i+1);
                     score = scanner.nextInt();
                     scores[i] = score;
                 }
